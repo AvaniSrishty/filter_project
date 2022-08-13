@@ -1,0 +1,30 @@
+.btn-success:hover{
+    background-color: palevioletred;
+}
+
+canvas{
+    border: 5px ridge darkgray;
+
+}
+
+.btn-info{
+    font-size: 20px;
+    color:white;
+    
+}
+
+body {
+   background-image:url("lipstick-seamless-pattern-600w-177886439.webp");
+   background-size: cover;
+}
+
+canvas{
+    animation-name: my_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my_animation {
+    from{box-shadow: 15px 20px 10px red;}
+    to{box-shadow: 15px 20px 35px lightpink;}
+}
